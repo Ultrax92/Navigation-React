@@ -1,12 +1,12 @@
-import { Container, Navbar } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Footer() {
     return (
-        <Navbar bg="dark" variant="dark" className="justify-content-center mt-auto">
-            <Container>
-                <Navbar.Text className="text-center w-100 text-light">Footer</Navbar.Text>
+        <footer className="bg-dark text-light py-3 mt-auto">
+            <Container className="text-center">
+                <p className="mb-0">Footer</p>
             </Container>
-        </Navbar>
+        </footer>
     );
 }
 

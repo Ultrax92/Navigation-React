@@ -3,21 +3,23 @@ import { NavLink } from 'react-router';
 
 function Header() {
     return (
-        <Navbar bg="light" expand="lg">
-            <Container>
-                <Nav className="ms-auto d-none d-lg-flex">
-                    <Nav.Link as={NavLink} to="/" end>
-                        Accueil
-                    </Nav.Link>
-                    <Nav.Link as={NavLink} to="/vetements">
-                        Vêtements
-                    </Nav.Link>
-                    <Nav.Link as={NavLink} to="/chaussures">
-                        Chaussures
-                    </Nav.Link>
-                </Nav>
-            </Container>
-        </Navbar>
+        <header>
+            <Navbar bg="light" expand="lg">
+                <Container>
+                    <Nav className="ms-auto d-none d-lg-flex">
+                        <Nav.Link as={NavLink} to="/" end>
+                            Accueil
+                        </Nav.Link>
+                        <Nav.Link as={NavLink} to="/vetements">
+                            Vêtements
+                        </Nav.Link>
+                        <Nav.Link as={NavLink} to="/chaussures">
+                            Chaussures
+                        </Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
+        </header>
     );
 }
 
