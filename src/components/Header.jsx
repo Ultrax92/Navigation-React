@@ -8,12 +8,8 @@ function Header() {
         <header>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    {match ? (
-                        <span className="fw-bold">
-                            Catégorie : {match.params.categoryId}
-                        </span>
-                    ) : (
-                        <span></span>
+                    {match && (
+                        <span className="fw-bold">Catégorie : {match.params.categoryId}</span>
                     )}
                     <Nav className="ms-auto d-none d-lg-flex">
                         <Nav.Link as={NavLink} to="/" end>
