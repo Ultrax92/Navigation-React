@@ -1,0 +1,9 @@
+.container .navbar-nav {
+    gap: 10px;
+}
+
+.container .navbar-nav a {
+    color: #1f1f1f;
+    font-size: 25px;
+    
+}
